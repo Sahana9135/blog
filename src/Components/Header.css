@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar > h1{
+    color: rgb(241, 38, 79);
+    font-size: 25px;
+    padding: 5px;
+}
+.nav-links > li > a{
+    color: rgb(247, 230, 230);
+}
+.nav-links , li , a{
+    display: inline-block;
+    text-decoration: none;
+    
+    padding: 5px;
+    margin-left: 20px;
+}
+.nav-links > li > a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+.nav-links > li > a:visited{
+    text-decoration: underline;
+}
+.btn > li > button > a{
+    color: white;
+}
+.btn > li > button{
+    padding: 3px;
+    background-color: rgb(192, 47, 76);
+    border: 1px solid rgb(192, 47, 76);
+    border-radius: 25px;
+    margin: 5px;   
+}

@@ -1,0 +1,35 @@
+.fcontainer{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fip > input{
+    width: 250%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+.fip > input::placeholder{
+    font-size: larger;
+}
+
+
+.fcontainer > button{
+    background-color: rgb(253, 250, 251);
+    color: black;
+    border: 1px solid black(192, 47, 76);
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    font-size: larger;
+}

@@ -1,0 +1,62 @@
+/* Authors Section */
+.authors-section {
+    padding: 40px 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .authors-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .authors-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .author-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 80px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .author-card {
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .author-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .author-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .author-card h3 {
+    color: #333;
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .author-card p {
+    color: #777;
+    font-size: 0.9em;
+  }
+  

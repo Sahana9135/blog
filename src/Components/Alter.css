@@ -1,0 +1,22 @@
+.alter{
+    background-color: black;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.alter > h1{
+    color: crimson;
+    text-align: center;
+}
+
+.alter > ul > li> a{
+    border: 1px crimson solid;
+    background-color: crimson;
+    border-radius: 25px;
+    color: aliceblue;
+    padding: 4px;
+    width: 50px;
+    text-align: center;
+}

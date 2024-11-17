@@ -1,0 +1,33 @@
+.econtainer{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eip > input{
+    width: 250%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+.eip > input::placeholder{
+    font-size: larger;
+    color: rgb(36, 35, 35);
+}
+.econtainer > button{
+    padding: 7px;
+    background-color: rgb(253, 250, 251);
+    color: black;
+    border: 1px solid black(192, 47, 76);
+    border-radius: 25px;
+    width: 110px;
+    height: 40px;
+    font-size: larger;
+}
