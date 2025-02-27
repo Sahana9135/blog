@@ -13,7 +13,7 @@ function Head() {
                 <ul className="nav-links">
                     <li><Link to="/" title="Landing Page">Home</Link></li>
                     <li><Link to=" " title="You can view a Existing Blogs by click this button">Blogs</Link></li>
-                    <li><Link to=" " title="Services of Explore world by Blogs">Services</Link></li>
+                    <li><Link to="/create " title="Services of Explore world by Blogs">Services</Link></li>
                     <li><Link to=" " title="About this Explore world">About</Link></li>
                     <li><Link to="/contact" title="To fill the form by contact us">Contact</Link></li>
                 </ul>

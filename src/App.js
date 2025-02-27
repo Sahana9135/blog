@@ -6,7 +6,6 @@ import Gsign from './Components/Google';
 import Fsign from './Components/Facebook';
 import Esign from './Components/Email';
 import NewAccount from './Components/Account';
-import Blog from './Components/NewBlog';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -22,7 +21,7 @@ function App() {
         <Route path="/facebook" element={<Fsign />} />
         <Route path="/email" element={<Esign />} />
         <Route path="/newaccount" element={<NewAccount />} />
-        <Route path="/blog" element={<Blog />} />
+        
       </Routes>
       {/* <Main />
       <Head />
